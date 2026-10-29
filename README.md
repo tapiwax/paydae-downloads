@@ -4,33 +4,39 @@ Paydae Desktop is a payroll workspace for preparing, reviewing and keeping payro
 
 **Paydae is proprietary software. The beta is available at no software licence charge for a limited period. This repository does not publish the application's source code or grant an open-source licence.**
 
-> Draft for publication: replace all bracketed fields and verify the links, supported requirements and installer filename before publishing.
+> Draft for publication: replace all bracketed fields and verify the links and supported requirements before publishing.
 
 ## Download
 
-**[Download Paydae Desktop for Windows](https://github.com/[GITHUB_OWNER]/[DOWNLOADS_REPOSITORY]/releases/latest/download/Paydae-Setup.exe)**
+**[Download Paydae Desktop 0.1.0 for Windows (x64)](https://github.com/tapiwax/paydae-downloads/releases/latest/download/Paydae-Desktop-Setup-0.1.0-x64.exe)**
 
 - [Official website](https://paydae.co/)
-- [Release history and release notes](https://github.com/[GITHUB_OWNER]/[DOWNLOADS_REPOSITORY]/releases)
+- [Release history and release notes](https://github.com/tapiwax/paydae-downloads/releases)
 - [Beta Licence Agreement](./LICENSE.md)
-- [Privacy Policy]([PRIVACY_POLICY_URL])
+- [Privacy Policy](https://paydae.co/privacy-policy/)
+- [Support centre](https://support.paydae.co/)
 
-The direct download link requires the latest published release to include an attachment named exactly `Paydae-Setup.exe`. Other installation formats or platforms, if supported, will be listed in the release notes.
+The direct download link requires the latest published release to include an attachment named exactly `Paydae-Desktop-Setup-0.1.0-x64.exe`. Until the installer is uploaded, use the release history to check availability. Because the filename includes the version, update this link and its label when publishing a new version. Other installation formats or platforms, if supported, will be listed in the release notes.
 
 ## Beta availability and pricing
 
-The beta licence expires on **[BETA_EXPIRY_DATE_AND_TIME_WITH_TIMEZONE]**, unless extended in writing. The application may stop allowing normal use after expiry. Export required records and make recoverable workspace backups before then; continued read-only access is not promised.
+The beta licence expires on **31 December 2026 at 23:59 (UTC+02:00), inclusive through the end of that minute**, unless extended in writing. The application may stop allowing normal use after expiry. Export required records and make recoverable workspace backups before then; continued read-only access is not promised.
 
 Future versions or continued use after the beta may require a paid licence. There is no automatic charge or paid subscription: any paid offer requires your separate express agreement. Beta access does not guarantee permanent free access or a future discount.
 
 ## System requirements
 
-- Windows versions: **[SUPPORTED_WINDOWS_VERSIONS]**
-- Processor architecture: **[SUPPORTED_ARCHITECTURES]**
-- Memory and disk space: **[MINIMUM_RAM_AND_FREE_DISK_SPACE]**
-- Additional requirements: **[REQUIRED_RUNTIMES_AND_CONNECTIVITY]**
+- Operating system: **64-bit Windows 10 version 1903 (build 18362) or later**, as specified in the installation guide.
+- Processor architecture: **x64 (Intel/AMD 64-bit)** for the documented Windows package. ARM64 support has not been established.
+- Memory: **8 GB RAM recommended**, with more memory for large payrolls or when running other business applications alongside Paydae.
+- Storage: **allow at least 2 GB of free disk space for installation, prerequisites and updates**, plus additional space for payroll workspaces, generated documents and retained backups. An SSD is recommended.
+- Application runtime: the documented Windows package includes self-contained local .NET hosts; a separate .NET installation is not required for those hosts.
+- Additional prerequisites: **Microsoft Edge WebView2 Runtime**. The current installer configuration uses Tauri's default mode, which downloads and runs the WebView2 installer if the runtime is missing. Internet access is required for that step; on an offline computer, arrange installation of WebView2 beforehand.
+- Display: allow space for an application window of at least **1024 × 680 pixels**, plus Windows window controls and taskbar. A **1366 × 768 display or larger at 100% scaling** is recommended; higher display scaling may require a higher resolution.
+- Installation permissions: permission to install applications for your Windows user account and write to your selected workspace and backup folders. Managed computers may require IT approval for prerequisite installation.
+- Connectivity: local operation and offline licence validation are documented; continuous internet access is not required for ordinary local operation. Confirm the activation path for the beta release before installation. Downloading the installer, obtaining updates and installing a missing WebView2 runtime require an internet-connected device.
 
-Check the release notes for requirements and known limitations specific to your version.
+The memory and storage figures above are provisional planning recommendations based on the packaged desktop application, local payroll processing and backup needs; they are not benchmark-validated minimums or a guarantee for every payroll size. The window size and prerequisite behaviour come from the current application configuration. See [Tauri's WebView2 installation documentation](https://v2.tauri.app/distribute/windows-installer/#webview2-installation-options) and check the release notes for requirements and known limitations specific to your version.
 
 ## Install or update
 
@@ -40,7 +46,7 @@ Check the release notes for requirements and known limitations specific to your 
 4. Run the installer, review the agreement and accept it only if you agree. Follow the installation and activation instructions for your release.
 5. Verify the installed version and review your payroll settings before use.
 
-If Windows displays a security or publisher warning, verify the file's origin and contact **[PRIVATE_SUPPORT_EMAIL_OR_URL]** if unsure. Do not disable security protection to complete installation. Where a release provides a SHA-256 checksum, compare it with the downloaded file to check integrity; a checksum alone does not establish publisher identity.
+If Windows displays a security or publisher warning, verify the file's origin and contact **hello@paydae.co** if unsure. Do not disable security protection to complete installation. Where a release provides a SHA-256 checksum, compare it with the downloaded file to check integrity; a checksum alone does not establish publisher identity.
 
 ## Important beta limitations
 
@@ -50,13 +56,13 @@ Use synthetic or anonymised records for evaluation where practical. If using liv
 
 ## Feedback and support
 
-Send feedback or support requests to **[PRIVATE_SUPPORT_EMAIL_OR_URL]**. Include the Paydae version, Windows version, steps to reproduce the problem and any error message, with sensitive details removed.
+Send feedback or support requests to **[hello@paydae.co](mailto:hello@paydae.co)**, or consult the [support centre](https://support.paydae.co/). Include the Paydae version, Windows version, steps to reproduce the problem and any error message, with sensitive details removed.
 
 **Do not publish payroll files, employee details, bank information, credentials or licence keys in public GitHub issues.** Request a private support channel before sharing sensitive material. Beta support is subject to availability unless separately agreed.
 
 ## Licence and ownership
 
-Copyright © 2026 **[LEGAL_ENTITY_NAME]**. All rights reserved, subject to the [Beta Licence Agreement](./LICENSE.md) and applicable third-party licences.
+Copyright © 2026 **Paydae Pvt Ltd**. All rights reserved, subject to the [Beta Licence Agreement](./LICENSE.md) and applicable third-party licences.
 
 The beta agreement permits authorised use, including client payroll work within your agreed licence limits. It does not grant permission to resell, sublicense or publicly mirror the installer. You may share links to the official download page and lawfully retain and share payroll outputs as described in the agreement.
 
