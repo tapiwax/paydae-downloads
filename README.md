@@ -8,7 +8,7 @@ Paydae Desktop is a payroll workspace for preparing, reviewing and keeping payro
 
 ## Download
 
-**[Download Paydae Desktop 0.1.0 for Windows (x64)](https://github.com/tapiwax/paydae-downloads/releases/latest/download/Paydae-Desktop-Setup-0.1.0-x64.exe)**
+**[Download Paydae Desktop 0.1.0 for Windows (x64)](https://github.com/tapiwax/paydae-downloads/releases/download/v0.1.0-beta/Paydae-Desktop-Setup-0.1.0-x64.exe)**
 
 - [Official website](https://paydae.co/)
 - [Release history and release notes](https://github.com/tapiwax/paydae-downloads/releases)
@@ -16,7 +16,9 @@ Paydae Desktop is a payroll workspace for preparing, reviewing and keeping payro
 - [Privacy Policy](https://paydae.co/privacy-policy/)
 - [Support centre](https://support.paydae.co/)
 
-The direct download link requires the latest published release to include an attachment named exactly `Paydae-Desktop-Setup-0.1.0-x64.exe`. Until the installer is uploaded, use the release history to check availability. Because the filename includes the version, update this link and its label when publishing a new version. Other installation formats or platforms, if supported, will be listed in the release notes.
+The Windows x64 installer is `Paydae-Desktop-Setup-0.1.0-x64.exe` (75,314,241 bytes). The link targets the `v0.1.0-beta` pre-release directly. Update this link and its label when publishing a new version.
+
+SHA-256: `56ed5818f7613b4e02b4b0a1863da1b1342d1937af4a90725f6f8437de7b8f55`.
 
 ## Beta availability and pricing
 
